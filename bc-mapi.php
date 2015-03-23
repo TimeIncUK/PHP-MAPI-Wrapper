@@ -1166,7 +1166,7 @@ class BCMAPI
 
 	/**
 	 * Retrieves the appropriate API URL
-	 * @access Private
+	 * @access Protected
 	 * @since 1.0.0
 	 * @param string [$type] The type of URL to retrieve, read or write
 	 * @return string The appropriate API URL
@@ -1194,7 +1194,7 @@ class BCMAPI
 
 	/**
 	 * Appends API parameters onto API request URL.
-	 * @access Private
+	 * @access Protected
 	 * @since 0.1.0
 	 * @param string [$method] The requested API method
 	 * @param array [$params] A key-value array of API parameters
@@ -1223,7 +1223,7 @@ class BCMAPI
 
 	/**
 	 * Retrieves API data from provided URL.
-	 * @access Private
+	 * @access Protected
 	 * @since 0.1.0
 	 * @param string [$url] The complete API request URL
 	 * @return object An object containing all API return data
@@ -1310,7 +1310,7 @@ class BCMAPI
 
 	/**
 	 * Sends data to the API.
-	 * @access Private
+	 * @access Protected
 	 * @since 1.0.0
 	 * @param array [$request] The data to send
 	 * @param bool [$return_json] Whether we should return any data or not
@@ -1340,7 +1340,7 @@ class BCMAPI
 
 	/**
 	 * Makes a cURL request.
-	 * @access Private
+	 * @access Protected
 	 * @since 1.0.0
 	 * @param mixed [$request] URL to fetch or the data to send via POST
 	 * @param boolean [$get_request] If false, send POST params
@@ -1388,7 +1388,7 @@ class BCMAPI
 
 	/**
 	 * Cleans the response for 32-bit machine compliance.
-	 * @access Private
+	 * @access Protected
 	 * @since 1.0.0
 	 * @param string [$response] The response from a cURL request
 	 * @return string The cleansed string if using a 32-bit machine.
@@ -1405,7 +1405,7 @@ class BCMAPI
 
 	/**
 	 * Determines if provided type is valid
-	 * @access Private
+	 * @access Protected
 	 * @since 1.0.0
 	 * @param string [$type] The type
 	 */
