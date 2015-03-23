@@ -1,15 +1,22 @@
 {
-    "name"       : "danielhomer/brightcove-php-mapi-wrapper",
-    "description": "Brightcove API wrapper written in PHP.",
-    "homepage"   : "https://github.com/danielhomer/PHP-MAPI-Wrapper",
-    "license"    : "GPLv2",
-    "authors"    : [
-        {
-            "name"    : "Daniel Homer",
-            "homepage": "http://danielhomer.me"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.3"
-    }
+	"name": "brightcoveos/brightcove-php-mapi-wrapper",
+	"description": "Brightcove API wrapper written in PHP.",
+	"keywords": [ "ovp", "movie", "api", "brightcove" ],
+	"homepage": "https://github.com/BrightcoveOS/PHP-MAPI-Wrapper",
+	"license": "GPLv2",
+	"type": "library",
+	"authors": [
+	{
+		"name": "Daniel Homer",
+		"homepage": "http://danielhomer.me"
+	}
+	],
+	"autoload": {
+	   "classmap": [
+			"./"
+		]
+	},
+	"require": {
+		"php": ">=5.3.3"
+	}
 }
