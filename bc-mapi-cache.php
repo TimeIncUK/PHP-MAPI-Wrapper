@@ -55,9 +55,8 @@ class BCMAPICache
 	 * @param string [$extension] The file extension for cache items (file only)
 	 * @param int [$port] The port to use (Memcached only)
 	 */
-	public function __construct($type = 'file', $time = 600, $location, $extension = '.c', $port = 11211)
+	public function __construct($type = 'file', $time = 600, $location = false, $extension = '.c', $port = 11211)
 	{
-		
 		if(strtolower($type) == 'file')
 		{
 			$type = 'file';
